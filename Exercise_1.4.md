@@ -1,6 +1,6 @@
 **Exercise 1.4**
 
-_How	should	the	definition	of	the	function	qsort	be	modified	so	that	it	produces	a	reverse	sorted version	of	a	list?_
+How should the definition of the function qsort be modified so that it produces a reverse sorted version of a list?
 
 **Code**
 ```haskell
