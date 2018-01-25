@@ -28,7 +28,7 @@ _nth (x:xs) i = _nth xs (i-1)
 _elem :: Eq a => a -> [a] -> Bool
 _elem _ [] = False
 _elem a (x:xs)
-  | x==a = True
+  | x==a      = True
   | otherwise = _elem a xs
 
 
