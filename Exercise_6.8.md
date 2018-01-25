@@ -27,7 +27,7 @@ msort [x] = [x]
 msort xs = do let (f, s) = (halve xs) in merge (msort f) (msort s)
 
 main = do
-  print $ "The list [1,5,6,2,9] sorted using merge sort is:  " ++ show (msort [1,5,6,2,9])
+  print $ "The list [1,5,6,2,9] sorted using merge sort is: " ++ show (msort [1,5,6,2,9])
 
 ```
 
