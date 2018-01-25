@@ -15,10 +15,10 @@ perfects n = [x | x <- [1..n], 2 * x == sum (factors x)]
 
 
 main = do
-  print $ "The list of all perfects up to 500 is:  " ++ show (perfects 500)
+  print $ "The list of all perfects up to 500 is: " ++ show (perfects 500)
 ```
 
 **Result**
 ```bash
-"The list of all perfects up to 500 is:  [6,28,496]"
+"The list of all perfects up to 500 is: [6,28,496]"
 ```
