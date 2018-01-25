@@ -34,6 +34,6 @@ main = do
 **Result**
 ```bash
 "For lists 1 7 8 4 the luhn algorithm returns True"
-"For lists 3 7 8 4 the luhn algorithm returns False
+"For lists 3 7 8 4 the luhn algorithm returns False"
 ```
 
