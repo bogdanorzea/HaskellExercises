@@ -33,18 +33,18 @@ _elem a (x:xs)
 
 
 main = do
-  print $ "Applying and on list [True, True, False] results in:  " ++ show (_and [True, True, False])
-  print $ "Concatenating [[1, 2], [3, 4, 5]] results in:  " ++ show (_concat [[1, 2], [3, 4, 5]])
-  print $ "Replicating 8 times number '5' results in:  " ++ show (_replicate 8 5)
-  print $ "Element with index 5 in list [1, 2, 3, 4, 5, 6] is:  " ++ show (_nth [1, 2, 3, 4, 5, 6] 5)
-  print $ "Element 5 is in list [1, 2, 3, 4, 5, 6] is:  " ++ show (_elem 5 [1, 2, 3, 4, 5, 6])
+  print $ "Applying and on list [True, True, False] results in: " ++ show (_and [True, True, False])
+  print $ "Concatenating [[1, 2], [3, 4, 5]] results in: " ++ show (_concat [[1, 2], [3, 4, 5]])
+  print $ "Replicating 8 times number '5' results in: " ++ show (_replicate 8 5)
+  print $ "Element with index 5 in list [1, 2, 3, 4, 5, 6] is: " ++ show (_nth [1, 2, 3, 4, 5, 6] 5)
+  print $ "Element 5 is in list [1, 2, 3, 4, 5, 6] is: " ++ show (_elem 5 [1, 2, 3, 4, 5, 6])
 ```
 
 **Result**
 ```bash
-"Applying and on list [True, True, False] results in:  False"
-"Concatenating [[1, 2], [3, 4, 5]] results in:  [1,2,3,4,5]"
-"Replicating 8 times number '5' results in:  [5,5,5,5,5,5,5,5]"
-"Element with index 5 in list [1, 2, 3, 4, 5, 6] is:  6"
-"Element 5 is in list [1, 2, 3, 4, 5, 6] is:  True"
+"Applying and on list [True, True, False] results in: False"
+"Concatenating [[1, 2], [3, 4, 5]] results in: [1,2,3,4,5]"
+"Replicating 8 times number '5' results in: [5,5,5,5,5,5,5,5]"
+"Element with index 5 in list [1, 2, 3, 4, 5, 6] is: 6"
+"Element 5 is in list [1, 2, 3, 4, 5, 6] is: True"
 ```
