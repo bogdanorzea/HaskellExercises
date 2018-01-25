@@ -1,4 +1,4 @@
-**Exercise fibonnaci**
+**Exercise Fibonacci Sequence**
 
 Identify element at position 100 in the Fibonacii sequence.
 
