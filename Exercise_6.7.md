@@ -16,10 +16,10 @@ merge (x:xs) (y:ys)
   | otherwise = y:(merge (x:xs) ys)
 
 main = do
-  print $ "Merging lists [2,5,6] and [1,3,4] will result in:  " ++ show (merge [2,5,6] [1,3,4])
+  print $ "Merging lists [2,5,6] and [1,3,4] will result in: " ++ show (merge [2,5,6] [1,3,4])
 ```
 
 **Result**
 ```bash
-"Merging lists [2,5,6] and [1,3,4] will result in:  [1,2,3,4,5,6]"
+"Merging lists [2,5,6] and [1,3,4] will result in: [1,2,3,4,5,6]"
 ```
