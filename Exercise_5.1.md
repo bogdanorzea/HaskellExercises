@@ -5,10 +5,10 @@ Using a list comprehension, give an expression that calculates the sum 1<sup>2</
 **Code**
 ```haskell
 main = do
-  print $ "The sum of squares of the first 100 integers is:  " ++ show (sum [ x^2 | x <- [0..100]])
+  print $ "The sum of squares of the first 100 integers is: " ++ show (sum [ x^2 | x <- [0..100]])
 ```
 
 **Result**
 ```bash
-"The sum of squares of the first 100 integers is:  338350"
+"The sum of squares of the first 100 integers is: 338350"
 ```
