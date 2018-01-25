@@ -1,4 +1,4 @@
-**Exercise 4.8**
+**Exercise 5.6**
 
 A positive integer is perfect if it equals the sum of all of its factors, excluding the number itself. 
 
