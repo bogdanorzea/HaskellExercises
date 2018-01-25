@@ -1,4 +1,4 @@
-**Reversed Insertion Sort**
+**Exercise Reversed Insertion Sort**
 
 How should the definition of the function insert_sort be modified so that it produces a reverse sorted version of a list?
 
