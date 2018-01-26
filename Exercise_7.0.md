@@ -14,7 +14,7 @@ luhnDouble :: Int -> Int
 luhnDouble x 
   | double <= 9 = double
   | otherwise   = double - 9
-  where double = 2 * x
+  where double  = 2 * x
   
 
 luhn :: [Int] -> Bool
