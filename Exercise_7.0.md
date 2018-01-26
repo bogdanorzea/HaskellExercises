@@ -5,7 +5,7 @@ Using altMap, define a function luhn :: [Int] -> Bool that implements the Luhn a
 **Code**
 
 ```haskell
-ltMap :: (a -> b) -> (a -> b) -> [a] -> [b]
+altMap :: (a -> b) -> (a -> b) -> [a] -> [b]
 altMap f g []       = []
 altMap f g [x]      = (f x) : []
 altMap f g (x:y:ns) = (f x) : (g y) : (altMap f g ns)
